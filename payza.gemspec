@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = Payza::VERSION
   s.authors     = ["Azertys"]
   s.email       = ["spiridon.alin@gmail.com"]
-  s.homepage    = "https://github.com/azertys/payza"
+  s.homepage    = "http://ajaxmasters.com"
   s.summary     = "Payza API gem."
   s.description = "A simple gem for the Payza payment network"
 
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.2.6"
-  s.add_dependency "HTTParty"
+  s.add_dependency "httparty", "~> 0.9.0"
 
   #s.add_development_dependency "sqlite3"
 end
